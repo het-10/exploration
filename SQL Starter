@@ -1,0 +1,57 @@
+**********SQL Starter**********
+*******Retriving necessary data for earloop analysis from existing database**********
+SELECT  M1_Prod_Count DECIMAL(20,0)  NOT NULL,
+	M1_Uptime DECIMAL(20,0) NOT NULL,
+	M1_Downtime DECIMAL(20,0) NOT NULL,
+	M1_EarloopA_Count DECIMAL (10, 2) NOT NULL,
+	M1_EarloopA_Uptime DECIMAL (10, 2) NOT NULL,
+	M1_EarloopB_Count DECIMAL (10, 2) NOT NULL,
+	M1_EarloopB_Uptime DECIMAL (10, 2) NOT NULL ,
+
+	M2_Prod_Count DECIMAL(20,0)  NOT NULL,
+	M2_Uptime DECIMAL(20,0) NOT NULL,
+	M2_Downtime DECIMAL(20,0) NOT NULL,
+    M2_EarloopA_Count DECIMAL (10, 2) NOT NULL,
+	M2_EarloopA_Uptime DECIMAL (10, 2) NOT NULL ,
+	M2_EarloopB_Count DECIMAL (10, 2) NOT NULL ,
+	M2_EarloopB_Uptime DECIMAL (10, 2) NOT NULL,
+
+	M3_Prod_Count DECIMAL(20,0)  NOT NULL,
+	M3_Uptime DECIMAL(20,0) NOT NULL,
+	M3_Downtime DECIMAL(20,0) NOT NULL,
+	M3_EarloopA_Count DECIMAL (10, 2) NOT NULL,
+	M3_EarloopA_Uptime DECIMAL (10, 2) NOT NULL,
+	M3_EarloopB_Count DECIMAL (10, 2) NOT NULL,
+	M3_EarloopB_Uptime DECIMAL (10, 2) NOT NULL,
+
+	M4_Prod_Count DECIMAL(20,0)  NOT NULL,
+	M4_Uptime DECIMAL(20,0) NOT NULL,
+	M4_Downtime DECIMAL(20,0) NOT NULL,
+	M4_EarloopA_Count DECIMAL (10, 2) NOT NULL,
+	M4_EarloopA_Uptime DECIMAL (10, 2) NOT NULL,
+	M4_EarloopB_Count DECIMAL (10, 2) NOT NULL,
+	M4_EarloopB_Uptime DECIMAL (10, 2) NOT NULL,
+
+	M5_Prod_Count DECIMAL(20,0)  NOT NULL,
+	M5_Uptime DECIMAL(20,0) NOT NULL,
+	M5_Downtime DECIMAL(20,0) NOT NULL,
+	M5_EarloopA_Count DECIMAL (10, 2) NOT NULL,
+	M5_EarloopA_Uptime DECIMAL (10, 2) NOT NULL,
+	M5_EarloopB_Count DECIMAL (10, 2) NOT NULL,
+	M5_EarloopB_Uptime DECIMAL (10, 2) NOT NULL,
+
+	M6_Prod_Count,
+  M6_EarloopA_Count,
+	M6_EarloopB_Count,
+from tb_L1_Mask_Metrics
+
+
+***Ear Loop and Machine Data Tabulation***
+
+
+***Preliminary Analysis***
+
+
+***Association between ear loop defects and machine***
+
+
